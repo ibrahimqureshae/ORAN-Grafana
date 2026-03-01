@@ -2,6 +2,8 @@
 
 **Auto-generates and continuously updates Grafana dashboards from InfluxDB 3 O-RAN AI/ML data.**
 
+This project is completely open source and available under the MIT License.
+
 No hardcoded field names. Schema is discovered at runtime using `information_schema` queries. Dashboard regenerates whenever measurements, fields, or tags change.
 
 ---
