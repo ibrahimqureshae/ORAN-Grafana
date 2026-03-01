@@ -1,5 +1,7 @@
 # O-RAN Grafana Visualization Pipeline
 
+[![CI](https://github.com/ibrahimqureshae/ORAN-Grafana/actions/workflows/ci.yml/badge.svg)](https://github.com/ibrahimqureshae/ORAN-Grafana/actions/workflows/ci.yml)
+
 **Auto-generates and continuously updates Grafana dashboards from InfluxDB 3 O-RAN AI/ML data.**
 
 This project is completely open source and available under the MIT License.
