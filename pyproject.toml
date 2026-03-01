@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oran-viz"
+version = "0.1.0"
+description = "Dynamic Grafana dashboard generator for O-RAN AI/ML InfluxDB data"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "influxdb3-python",
+  "requests",
+  "pandas",
+  "pyarrow",
+  "python-dotenv",
+]
+
+[project.scripts]
+oran-viz-run      = "oran_viz.pipeline:run"
+oran-viz-populate = "oran_viz.dummy_data:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

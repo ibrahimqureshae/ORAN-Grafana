@@ -1,0 +1,34 @@
+# Secrets — never commit
+.env
+
+# Runtime generated files
+data/last_schema.json
+data/pipeline.log
+data/schema_changes.log
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+venv/
+.venv/
+env/
+oral_env/
+
+# Pip/setuptools build artifacts
+*.egg-info/
+build/
+dist/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
